@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inter', Tahoma, sans-serif;    background-color: #c6c6c68b;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0px ;
+    padding: 300px 20px;
+    padding-left: 480px;
+    padding-top: 1px;
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+  
+  .box {
+    
+    background-color: #ffffff8f;
+    border: 3px solid #ddddddd5;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    text-align: center;
+  }
+  
+  .box:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+    background-color: #ffffffdb;
+    transition: 0.5s;
+  }
+  
+  .box h2 {
+    margin-top: 0;
+    font-size: 25px;
+    color: #444;
+  }
+  
+  .box p {
+    color: #666;
+    font-size: 18px;
+  }
+  .custom-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    object-fit: contain;
+  }
+  .icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px; /* 👈 فاصله بیشتر از متن پایین */
+    margin-top: 0; /* نزدیک به بالای باکس */
+  }
+  
+  .icon-small {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  .github-button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    background-color: #24292e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    font-family: 'Inter', Tahoma, sans-serif;
+  }
+  
+  .github-button:hover {
+    background-color: #ffffff8f;
+    color: #24292e;
+    font-family: 'Inter', Tahoma, sans-serif;
+  }
+  
+  
+  
